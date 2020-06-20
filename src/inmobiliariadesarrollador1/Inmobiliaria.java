@@ -66,5 +66,34 @@ public class Inmobiliaria {
             //3º Si existen los dos. Añadir las viviendas de ese vendedor
         } 
     }
+    //Metodo que nos muestre toda la información de los vendedores resgistrados.
+    public void mostrarVendedores(){
+        for(Vendedor indice: vendedores.values()){
+            System.out.println(indice);
+        }
+    }
+   
+    //Listar las viviendas con metros cuadrados
+    public void listarMetros(double metros){
+        //Recorrer todas la viviendas de la inmobiliaria
+        for(Vivienda indice: viviendas.values()){
+            System.out.println(indice);
+        
+        //Para cada vivienda comparar sus metros con los metros pasados aqui
+        if(indice.Calcularmetros()>= metros ){
+            System.out.println(indice);
+        }
+        //Mostramos esa vivienda
+       }
+    }
+    //Visualizar comisiones de los vendedores
+    public void mostrarComisiones(){
+        //Recorrer todos los vendedores
+        for(Vendedor indice: vendedores.values()){
+            //Por cada vendedor mostrar su nombre y su comision
+            System.out.println("Nombre="+indice.getNombre()+"comision="+indice.calcularComision());
+        }
+            
+    }
   
 }

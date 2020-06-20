@@ -38,6 +38,12 @@ public class InmobiliariaDesarrollador1 {
         //Realizar una venta
         inmobiliaria.venta("123", "2222");
         inmobiliaria.venta("234", "1111");
+        //Mostrar vendedores
+        inmobiliaria.mostrarVendedores();
+        //Comprobar listar metros
+        inmobiliaria.listarMetros(100);
+        //mostrar comisiones
+        inmobiliaria.mostrarComisiones();
     }
     
 }
