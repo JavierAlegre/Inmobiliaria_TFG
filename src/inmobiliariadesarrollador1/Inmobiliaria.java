@@ -54,7 +54,7 @@ public class Inmobiliaria {
         //1ºComprobar que existe la vivienda
         if(vendedores.containsKey(nif)==true){
             //2ºComprobar si existe vendedor
-                if(viviendas.containsKey(codigo)==false){
+                if(viviendas.containsKey(codigo)==true){
                  vendedores.get(nif).getViviendas().put(codigo,viviendas.get(codigo));
                  viviendas.remove(codigo);
                     System.out.println("Venta realizada");
