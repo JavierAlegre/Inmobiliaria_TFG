@@ -28,7 +28,7 @@ public class InmobiliariaDesarrollador1 {
         //Para añadir vendedores
         inmobiliaria.addVendedor(v1);
         inmobiliaria.addVendedor(v2);
-        inmobiliaria.addVendedor(v4);
+        inmobiliaria.addVendedor(v3);
         
         //Para añadir viviendas
         inmobiliaria.addVivienda(p1);
