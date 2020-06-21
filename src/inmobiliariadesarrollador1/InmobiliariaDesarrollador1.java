@@ -24,13 +24,11 @@ public class InmobiliariaDesarrollador1 {
         
         Piso p1= new Piso (3,"123","Licenciados",30.000);
         Chaleti c1= new Chaleti (200,false,"234","AV CARLOS IV",200.000);
-        
-
-        
+   
         //Para añadir vendedores
         inmobiliaria.addVendedor(v1);
         inmobiliaria.addVendedor(v2);
-        inmobiliaria.addVendedor(v3);
+        inmobiliaria.addVendedor(v4);
         
         //Para añadir viviendas
         inmobiliaria.addVivienda(p1);
