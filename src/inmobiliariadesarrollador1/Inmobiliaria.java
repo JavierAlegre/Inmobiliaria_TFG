@@ -50,7 +50,7 @@ public class Inmobiliaria {
     }
     
     //Realizar una venta
-    public void venta (String codigo, String nif){
+    public void venta (String referencia, String nif){
         //1ºComprobar que existe la vivienda
         if(vendedores.containsKey(nif)==true){
             //2ºComprobar si existe vendedor
